@@ -11,11 +11,11 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 - [x] Commit initial import (conventional commit).
 
 ## Phase 1 - Agent core and tools
-- [ ] Add `agent` minimal setup.
-- [ ] Add `multi_turn_agent`.
-- [ ] Add tool registration (`agent_with_tools`).
-- [ ] Add manual tool calls (`manual_tool_calls`).
-- [ ] Add forced first-turn tool use (`force_tool_first_turn`).
+- [x] Add `agent` minimal setup.
+- [x] Add `multi_turn_agent`.
+- [x] Add tool registration (`agent_with_tools`).
+- [x] Add manual tool calls (`manual_tool_calls`).
+- [x] Add forced first-turn tool use (`force_tool_first_turn`).
 
 ## Phase 2 - Documents and context (no vectors)
 - [x] Add document handling (`documents`).
