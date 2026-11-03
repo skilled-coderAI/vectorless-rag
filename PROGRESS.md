@@ -19,16 +19,16 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 
 ## Phase 2 - Documents and context (no vectors)
 - [x] Add document handling (`documents`).
-- [ ] Add PDF handling (`pdf_agent`).
-- [ ] Add file loaders (`agent_with_loaders`).
-- [ ] Add small context documents (`agent_with_context`).
+- [x] Add PDF handling (`pdf_agent`).
+- [x] Add file loaders (`agent_with_loaders`).
+- [x] Add small context documents (`agent_with_context`).
 
 ## Phase 3 - Vectorless retrieval
-- [ ] Add retrieval pipeline (`chain` with `parallel!` and `lookup`).
+- [x] Add retrieval pipeline (`chain` with `parallel!` and `lookup`).
 - [ ] Add typed extraction (`extractor`).
 
 ## Phase 4 - Memory and state
-- [ ] Add in-memory conversation memory (`agent_with_memory`).
+- [x] Add in-memory conversation memory (`agent_with_memory`).
 - [ ] Add hand-driven loop (`agent_run_stepping`).
 
 ## Phase 5 - Streaming and reliability
@@ -39,7 +39,7 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 
 ## Phase 6 - Polish
 - [ ] Add README with run instructions.
-- [ ] Add basic tests.
+- [x] Add basic tests.
 - [ ] Final review and conventional commit.
 
 ## Notes
