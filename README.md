@@ -28,8 +28,20 @@ cargo run -- openai --model gpt-5.4-mini
 Provider API keys are read from the environment (for example
 `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`).
 
-## Modules
+## Workflow (vectorless RAG)
 
+1. Load documents from text/PDF files (`documents`).
+2. Index documents in memory as plain text (`retrieval`).
+3. For a query, score documents with lexical/keyword matching (no embeddings).
+4. Select top documents and build a context string.
+5. Pass context to a Rig agent with tools and an optional preamble.
+6. Run the agent (single or multi-turn) with conversation memory.
+7. Stream responses and tool calls; apply hooks for logging, retry, and failures.
+8. Return the final answer.
+
+No vector store or embedding model is used at any step.
+
+## Modules
 - `documents` - document model, text/PDF loading, context helpers.
 - `retrieval` - lexical retriever and context formatting.
 - `memory` - in-memory conversation memory helpers.
