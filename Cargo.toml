@@ -1,0 +1,15 @@
+[package]
+name = "vectorless-rag"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+rig = "0.46.0"
+anyhow = "1"
+futures = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
+
