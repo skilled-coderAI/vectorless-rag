@@ -1,0 +1,48 @@
+# Vectorless RAG Agent - Progress Tracker
+
+Status: In progress
+Framework: Rig (0.46.0)
+Style: Vectorless retrieval (no embeddings, no vector store)
+
+## Phase 0 - Foundation
+- [x] Import `agent_tool_call_streaming` example into project.
+- [x] Convert to standalone crate (`vectorless-rag`).
+- [x] Verify `cargo build` succeeds.
+- [x] Commit initial import (conventional commit).
+
+## Phase 1 - Agent core and tools
+- [ ] Add `agent` minimal setup.
+- [ ] Add `multi_turn_agent`.
+- [ ] Add tool registration (`agent_with_tools`).
+- [ ] Add manual tool calls (`manual_tool_calls`).
+- [ ] Add forced first-turn tool use (`force_tool_first_turn`).
+
+## Phase 2 - Documents and context (no vectors)
+- [x] Add document handling (`documents`).
+- [ ] Add PDF handling (`pdf_agent`).
+- [ ] Add file loaders (`agent_with_loaders`).
+- [ ] Add small context documents (`agent_with_context`).
+
+## Phase 3 - Vectorless retrieval
+- [ ] Add retrieval pipeline (`chain` with `parallel!` and `lookup`).
+- [ ] Add typed extraction (`extractor`).
+
+## Phase 4 - Memory and state
+- [ ] Add in-memory conversation memory (`agent_with_memory`).
+- [ ] Add hand-driven loop (`agent_run_stepping`).
+
+## Phase 5 - Streaming and reliability
+- [ ] Add streamed run over history (`agent_stream_chat`).
+- [ ] Add request/response/tool hooks (`request_hook`).
+- [ ] Add retry hook (`agent_with_retry_hook`).
+- [ ] Add tool failure handling (`tool_result_outcomes`).
+
+## Phase 6 - Polish
+- [ ] Add README with run instructions.
+- [ ] Add basic tests.
+- [ ] Final review and conventional commit.
+
+## Notes
+- Vector-based examples are intentionally excluded: `rag`, `vector_search`,
+  `vector_search_cohere`, `custom_vector_store`, `rag_dynamic_tools`.
+- Conventional commits: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`.
