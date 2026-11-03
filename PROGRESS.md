@@ -32,7 +32,7 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 - [x] Add hand-driven loop (`agent_run_stepping`).
 
 ## Phase 5 - Streaming and reliability
-- [ ] Add streamed run over history (`agent_stream_chat`).
+- [x] Add streamed run over history (`agent_stream_chat`).
 - [x] Add request/response/tool hooks (`request_hook`).
 - [x] Add retry hook (`agent_with_retry_hook`).
 - [x] Add tool failure handling (`tool_result_outcomes`).
