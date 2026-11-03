@@ -25,17 +25,17 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 
 ## Phase 3 - Vectorless retrieval
 - [x] Add retrieval pipeline (`chain` with `parallel!` and `lookup`).
-- [ ] Add typed extraction (`extractor`).
+- [x] Add typed extraction (`extractor`).
 
 ## Phase 4 - Memory and state
 - [x] Add in-memory conversation memory (`agent_with_memory`).
-- [ ] Add hand-driven loop (`agent_run_stepping`).
+- [x] Add hand-driven loop (`agent_run_stepping`).
 
 ## Phase 5 - Streaming and reliability
 - [ ] Add streamed run over history (`agent_stream_chat`).
-- [ ] Add request/response/tool hooks (`request_hook`).
-- [ ] Add retry hook (`agent_with_retry_hook`).
-- [ ] Add tool failure handling (`tool_result_outcomes`).
+- [x] Add request/response/tool hooks (`request_hook`).
+- [x] Add retry hook (`agent_with_retry_hook`).
+- [x] Add tool failure handling (`tool_result_outcomes`).
 
 ## Phase 6 - Polish
 - [ ] Add README with run instructions.
