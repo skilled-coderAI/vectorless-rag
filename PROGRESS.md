@@ -38,9 +38,9 @@ Style: Vectorless retrieval (no embeddings, no vector store)
 - [x] Add tool failure handling (`tool_result_outcomes`).
 
 ## Phase 6 - Polish
-- [ ] Add README with run instructions.
+- [x] Add README with run instructions.
 - [x] Add basic tests.
-- [ ] Final review and conventional commit.
+- [x] Final review and conventional commit.
 
 ## Notes
 - Vector-based examples are intentionally excluded: `rag`, `vector_search`,
